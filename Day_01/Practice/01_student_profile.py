@@ -1,0 +1,12 @@
+print("-----Student Profile-----")
+name=input("Enter your name:")
+age=int(input("Enter your age:"))
+university=input("Enter your university name:")
+semester = int(input("Enter your semester:"))
+cgpa= float(input("Enter CGPA:"))
+
+print(f"Name:  {name}")
+print(f"Age:  {age}")
+print(f"University:  {university}")
+print(f"Semester:  {semester}")
+print(f"CGPA:  {cgpa}")
